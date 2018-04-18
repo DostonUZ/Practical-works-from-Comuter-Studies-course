@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Computer Studies</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+        <link rel="stylesheet" href="gallery-grid.css">
+
+        <!-- <link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen"> -->
+        <style>
+        .scrollToTop{
+            width:100px;
+            height:130px;
+            padding:10px;
+            text-align:center;
+            background: whiteSmoke;
+            font-weight: bold;
+            color: #444;
+            text-decoration: none;
+            position:fixed;
+            top:75px;
+            right:40px;
+            display:none;
+            background: url('arrow_up.png') no-repeat 0px 20px;
+        }
+        .scrollToTop:hover{
+            text-decoration:none;
+        }
+</style>
+
+</head>
+<body>
+  <a href="#" class="scrollToTop">Scroll To Top</a>
+    <div class="container gallery-container">
+            <div class="tz-gallery">
+                <div class="row one"></div>
+                <div class="row">
+                    <h1>Computer Studies</h1>
+                    <p class="page-description text-center">Doston Hamrakulov<br>17.04.2018</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- =========================== Table of contents ======================= ======= -->
+
+        <div class="container gallery-container" style="margin-top: 50px">
+            <div class="tz-gallery section">
+                <div class="row"></div>
+                <div class="row">
+                    <h1>Table of contents</h1>
+                    <div class="list-group">
+                      <a href="#" class="list-group-item disabled">Chapter 1 - Theoretical part</a>
+                      <a href="#one_one" class="list-group-item">1.1 Circuit calculation</a>
+                      <a href="#two_two" class="list-group-item">1.2 Check modeling with gEDA</a>
+                      <a href="#three_three" class="list-group-item">1.3 dvanced task: Modeling with QUCS</a>
+                      <a href="#four_four" class="list-group-item">1.4 Tabula creation</a>
+                      <a href="#five_five" class="list-group-item">1.5 Circuitikz - for adding the electrical circuitdiagram</a>
+                      <a href="#" class="list-group-item disabled">Chapter 2 - Practical part</a>
+                      <a href="#chap_one" class="list-group-item">2.1 Work with GEDA programs</a>
+                      <a href="#chap_one_one" class="list-group-item">2.1.1 Work with gschem</a>
+                      <a href="#chap_one_two" class="list-group-item">2.1.2 Work with gnetlist</a>
+                      <a href="#chap_one_three" class="list-group-item">2.1.3 Work with ngspice</a>
+                      <a href="#chap_two_two" class="list-group-item">2.2 Work with QUCS programs</a>
+                      <a href="#Reference" class="list-group-item">Reference</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- =========================== Chapter 1 ======================= ======= -->
+
+
+
+        <div class="container gallery-container" style="margin-top: 50px">
+            <div class="tz-gallery section">
+                <div class="row"></div>
+                <div class="row">
+                    <h1>Chapter 1</h1>
+                    <h1>Theoretical part</h1>
+                    <h2 id="one_one">1.1 Circuit calculation</h2>
+                    <p>Calculate the voltages on the resistors shown in the diagram 1.  For voltagesource V1 use DC voltage that is the last three digits of your student ID di-vided by 10.  For example.  101REB123 means V1 = 12.3 (Volts).R1 is the second digit of the last 3 digits of the student ID + 1.  R2 is the lastdigit of the student ID number +1.  For example, if your student ID numberis 101REB123 then R1 = 3, R2 = 4. Take a picture of the calculation.  Thecalculation process will be required at work P02.  Additionally, the calcula-tion will have to be added to the report you will complete at the end of thesemester.
+                    </p>
+                </div>
+
+                <div class="row">
+
+                    <h2 id="two_two">1.2 Check modeling with gEDA</h2>
+                    <p>Calculate the voltages on the resistors shown in the diagram 1.  For voltagesource V1 use DC voltage that is the last three digits of your student ID di-vided by 10.  For example.  101REB123 means V1 = 12.3 (Volts).R1 is the second digit of the last 3 digits of the student ID + 1.  R2 is the lastdigit of the student ID number +1.  For example, if your student ID numberis 101REB123 then R1 = 3, R2 = 4. Take a picture of the calculation.  Thecalculation process will be required at work P02.  Additionally, the calcula-tion will have to be added to the report you will complete at the end of thesemester.
+                    </p>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="images/one.png">
+                          <img src="images/one.png" alt="">
+                      </a>
+                      <caption>Figure 1.1 Image number 1 from screen</caption>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-8" style="margin-top:30px">
+
+                  Start simulator QUCS. Locate the Project menu, then select Open Projectpoint to the directory P01.•Choose the tab Components on the left.  From the palette, select thetwo components Resistor and the source of the component DC VoltageSource from the Sources menu.  Put it all on the work surface as shownin the 2 image.  Select the voltage source and resistor values according tothe theoretical calculation at point 1.1.  Make sure the visible componentparameters (R1, R2, V1, etc.)  are not overlapped and legible.•Use CTRL + E to turn on wiring or connection mode and 0connect thecomponents.  Do not forget to add Ground to the scheme.•From the menu, open the category simulations and add the DC simu-lation block to your schema.  Without this block, QUCS will not knowwhat needs to be done.
+                  <br><br>
+                  Start simulator QUCS. Locate the Project menu, then select Open Projectpoint to the directory P01.•Choose the tab Components on the left.  From the palette, select thetwo components Resistor and the source of the component DC VoltageSource from the Sources menu.  Put it all on the work surface as shownin the 2 image.  Select the voltage source and resistor values according tothe theoretical calculation at point 1.1.  Make sure the visible componentparameters (R1, R2, V1, etc.)  are not overlapped and legible.•Use CTRL + E to turn on wiring or connection mode and 0connect thecomponents.  Do not forget to add Ground to the scheme.•From the menu, open the category simulations and add the DC simu-lation block to your schema.  Without this block, QUCS will not knowwhat needs to be done.
+                </p>
+              </div>
+
+            </div>
+        </div>
+      </div>
+
+
+
+        <div class="container gallery-container" style="margin-top: 50px">
+            <div class="tz-gallery section">
+                <div class="row"></div>
+                <div class="row">
+                    <h2 id="three_three">1.3 dvanced task: Modeling with QUCS</h2>
+                    <p>Calculate the voltages on the resistors shown in the diagram 1.  For voltagesource V1 use DC voltage that is the last three digits of your student ID di-vided by 10.  For example.  101REB123 means V1 = 12.3 (Volts).R1 is the second digit of the last 3 digits of the student ID + 1.  R2 is the lastdigit of the student ID number +1.  For example, if your student ID numberis 101REB123 then R1 = 3, R2 = 4. Take a picture of the calculation.  Thecalculation process will be required at work P02.  Additionally, the calcula-tion will have to be added to the report you will complete at the end of thesemester.
+                    </p>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="images/t_3.png">
+                          <img src="images/t_3.png" alt="Park">
+                      </a>
+                      <caption>Figure 1.2 Image number 2 from screen</caption>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="images/t_2.png">
+                          <img src="images/t_2.png" alt="Bridge">
+                      </a>
+                      <caption>Figure 1.3 Image number 3 from screen</caption>
+                  </div>
+                  <div class="col-sm-12 col-md-4">
+                      <a class="lightbox" href="images/t_3.png">
+                          <img src="images/t_3.png" alt="Tunnel">
+
+                      </a>
+                      <caption>Figure 1.4 Image number 4 from screen</caption>
+                  </div>
+                </div>
+                <p style="margin-top:30px">Calculate the voltages on the resistors shown in the diagram 1.  For voltagesource V1 use DC voltage that is the last three digits of your student ID di-vided by 10.  For example.  101REB123 means V1 = 12.3 (Volts).R1 is the second digit of the last 3 digits of the student ID + 1.  R2 is the lastdigit of the student ID number +1.  For example, if your student ID numberis 101REB123 then R1 = 3, R2 = 4. Take a picture of the calculation.  Thecalculation process will be required at work P02.  Additionally, the calcula-tion will have to be added to the report you will complete at the end of thesemester.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="container gallery-container" style="margin-top: 50px">
+            <div class="tz-gallery section">
+                <div class="row"></div>
+                <div class="row">
+                    <h2 id="four_four">1.4 Tabula creation</h2>
+                    <p>Calculate the voltages on the resistors shown in the diagram 1.  For voltagesource V1 use DC voltage that is the last three digits of your student ID di-vided by 10.  For example.  101REB123 means V1 = 12.3 (Volts).R1 is the second digit of the last 3 digits of the student ID + 1.  R2 is the lastdigit of the student ID number +1.  For example, if your student ID numberis 101REB123 then R1 = 3, R2 = 4. Take a picture of the calculation.  Thecalculation process will be required at work P02.  Additionally, the calcula-tion will have to be added to the report you will complete at the end of thesemester.
+                    </p>
+                </div>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>N:</th>
+                      <th>Section</th>
+                      <th>Value</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>R1</td>
+                      <td>9</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>R2</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>V1</td>
+                      <td>8.9</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>U<sub>R1</sub></td>
+                      <td>12.3</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>U<sub>R2</sub></td>
+                      <td>10.2</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <p style="text-align:center; margin-bottom:0">3</p>
+        </div>
+
+        <div class="container gallery-container" style="margin-top: 50px">
+            <div class="tz-gallery section">
+                <div class="row"></div>
+                <div class="row">
+
+                    <h2 id="five_five">1.5 Circuitikz - for adding the electrical circuitdiagram</h2>
+                    <div class="col-sm-6 col-md-8">
+                      <p>Calculate the voltages on the resistors shown in the diagram 1.  For voltagesource V1 use DC voltage that is the last three digits of your student ID di-vided by 10.  For example.  101REB123 means V1 = 12.3 (Volts).R1 is the second digit of the last 3 digits of the student ID + 1.  R2 is the lastdigit of the student ID number +1.  For example, if your student ID numberis 101REB123 then R1 = 3, R2 = 4. Take a picture of the calculation.  Thecalculation process will be required at work P02.  Additionally, the calcula-tion will have to be added to the report you will complete at the end of thesemester.
+                      The symbols can also be used along a path, using the transistor-path-syntax(Tin front of the shape name, see section 6.6).  Dont forget to use parameter n toname the node and get acces to the anchors:MMGωFigure 1.5:  Electro-Mechanical DevicesTo then link them up with other components we woulduse the predefined node anchors.For more information about all the components avail-able and how you link components using node anchors,take a look at the documentation.From the bottom left we have; a resistor, a variable re-sistor, a transmission line, a closing switch, a europeancurrent source, a european voltage source, an emptydiode, a full led, a generic bipole and a sinusoidal volt-age source.Bipoles arent the only type of component we can use.We can also add in monopoles, tripoles, double bipoles,logic gates and amplifiers.However we cant use the to keyword to add these in asweve done before, because they dont naturally fit on a single line.  Instead weuse node notation.  For example, this is how we would display an antenna[2, 3]From the bottom left we have; a resistor, a variable resistor, a transmissionline, a closing switch, a european current source, a european voltage source,an empty diode, a full led, a generic bipole and a sinusoidal voltage source.Bipoles arent the only type of component we can use.  We can also add inmonopoles, tripoles, double bipoles, logic gates and amplifiers.[1,?]However we cant use the to keyword to add these in as weve done before, be-cause they dont naturally fit on a single line.  Instead we use node notation.For example, this is how we would display an antenn
+
+
+                      </p>
+                   </div>
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="images/t_1.png">
+                          <img src="images/t_1.png" alt="Park">
+                      </a>
+                      <caption>Figure 1.5 Image number 5 from screen</caption>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- =========================== Chapter 2 ======================= ======= -->
+
+
+
+        <div class="container gallery-container" style="margin-top: 50px">
+            <div class="tz-gallery section">
+                <div class="row"></div>
+                <div class="row">
+                    <h1>Chapter 2</h1>
+                    <h1>Practical part</h1>
+                    <h2 id="chap_one">2.1 Work with GEDA programs</h2>
+                    <h3 id="chap_one_one">2.1.1 Work with gschem</h3>
+                    <p>
+                      After that you can use the environment wrapfig, it takes two parameters that are passed inside braces: the alignement that can be l, r, c, i or o; this letters stand for left, right, centre, inner and outer (the last two intended for two-sided documents). The second parameter is the width of the figure, in the example is 0.25 the width of the text. See the reference guide for a list of possible length units.
+                      <br><br>After that you can use the environment wrapfig, it takes two parameters that are passed inside braces: the alignement that can be l, r, c, i or o; this letters stand for left, right, centre, inner and outer (the last two intended for two-sided documents). The second parameter is the width of the figure, in the example is 0.25 the width of the text. See the reference guide for a list of possible length units.
+                    </p>
+                </div>
+
+                <div class="row">
+
+                    <h2 id="chap_one_two">2.1.2 Work with gnetlist</h2>
+                    <p>Content of 01.net <br><br>
+                      * Spice netlister for gnetlist
+                      <br>V1 2 0 1.2
+                      <br>R2 0 1 3
+                      <br>R1 2 1 2.
+                      <br>END
+                    </p>
+                </div>
+                <div class="row">
+
+                    <h2 id="chap_one_three">2.1.3 Work with ngspice</h2>
+                    <p> After that you can use the environment wrapfig, it takes two parameters that are passed inside braces: the alignement that can be l, r, c, i or o; this letters stand for left, right, centre, inner and outer (the last two intended for two-sided documents). The second parameter is the width of the figure, in the example is 0.25 the width of the text. See the reference guide for a list of possible length units.
+                     </p>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="images/one.png">
+                          <img src="images/one.png" alt="">
+                      </a>
+                      <caption>Figure 2.1 Image number 6 from screen</caption>
+                  </div>
+                  <div class="col-sm-6 col-md-8">
+
+                  Start simulator QUCS. Locate the Project menu, then select Open Projectpoint to the directory P01.•Choose the tab Components on the left.  From the palette, select thetwo components Resistor and the source of the component DC VoltageSource from the Sources menu.  Put it all on the work surface as shownin the 2 image.  Select the voltage source and resistor values according tothe theoretical calculation at point 1.1.  Make sure the visible componentparameters (R1, R2, V1, etc.)  are not overlapped and legible.•Use CTRL + E to turn on wiring or connection mode and 0connect thecomponents.  Do not forget to add Ground to the scheme.•From the menu, open the category simulations and add the DC simu-lation block to your schema.  Without this block, QUCS will not knowwhat needs to be done.
+                  <br><br>
+                  Start simulator QUCS. Locate the Project menu, then select Open Projectpoint to the directory P01.•Choose the tab Components on the left.  From the palette, select thetwo components Resistor and the source of the component DC VoltageSource from the Sources menu.  Put it all on the work surface as shownin the 2 image.  Select the voltage source and resistor values according tothe theoretical calculation at point 1.1.  Make sure the visible componentparameters (R1, R2, V1, etc.)  are not overlapped and legible.•Use CTRL + E to turn on wiring or connection mode and 0connect thecomponents.  Do not forget to add Ground to the scheme.•From the menu, open the category simulations and add the DC simu-lation block to your schema.  Without this block, QUCS will not knowwhat needs to be done.
+                </p>
+              </div>
+
+            </div>
+        </div>
+      </div>
+
+
+        <div class="container gallery-container" style="margin-top: 50px">
+            <div class="tz-gallery section">
+                <div class="row"></div>
+                <div class="row">
+                    <h2 id="chap_two_two">2.2 Work with QUCS programs</h2>
+                    <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="images/one.png">
+                        <img src="images/one.png" alt="">
+                      </a>
+                      <caption>Figure 2.2 Image number 7 from screen</caption>
+                    </div>
+                    <div class="col-sm-6 col-md-8">
+                      <ul>
+                        <li> Image of the schematics
+                        <li> Plot (curve) of DC simulation.
+                        <li> Curve from Sweep simulation (advanced topic).
+                        <li> Sweep simulation table (advanced topic).
+                        <li> Explanations for each image and table (advanced topic).
+                      </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="container gallery-container" style="margin-top: 50px">
+            <div class="tz-gallery section">
+                <div class="row"></div>
+                <div class="row">
+                    <h2 id="Reference">Reference</h2>
+                    <ol>
+                      <li> HTML5 Tutorial - <a href="https://www.w3schools.com/html/" target="_blank">https://www.w3schools.com/html/</a>
+                      <li> JavaScript Tutorial - <a href="https://www.w3schools.com/js/default.asp" target="_blank">https://www.w3schools.com/js/default.asp</a>
+                      <li> CSS Tutorial - <a href="https://www.w3schools.com/css/" target="_blank">https://www.w3schools.com/css/</a>
+                      <li> HTML Tutorial - <a href="https://www.quackit.com/html/tutorial/" target="_blank">https://www.quackit.com/html/tutorial/</a>
+                      <li> Bootstrap 3 Tutorial - <a href="https://www.w3schools.com/bootstrap/default.asp" target="_blank">https://www.w3schools.com/bootstrap/default.asp</a>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <script>
+        baguetteBox.run('.tz-gallery');
+        $(document).ready(function(){
+
+          //Check to see if the window is top if not then display button
+          $(window).scroll(function(){
+              if ($(this).scrollTop() > 100) {
+                  $('.scrollToTop').fadeIn();
+              } else {
+                  $('.scrollToTop').fadeOut();
+              }
+          });
+
+          //Click event to scroll to top
+          $('.scrollToTop').click(function(){
+              $('html, body').animate({scrollTop : 0},800);
+              return false;
+          });
+
+      });
+        </script>
+        <script src="js/main.js"></script>
+      </body>
+</html>
