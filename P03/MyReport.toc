@@ -1,0 +1,13 @@
+\contentsline {chapter}{\numberline {1}Theoretical part}{2}
+\contentsline {section}{\numberline {1.1}Circuit calculation}{2}
+\contentsline {section}{\numberline {1.2}Check modeling with gEDA}{2}
+\contentsline {section}{\numberline {1.3}Advanced task: Modeling with QUCS}{4}
+\contentsline {section}{\numberline {1.4}Tabula creation:}{6}
+\contentsline {section}{\numberline {1.5}Circuitikz - for adding the electrical circuit diagram}{7}
+\contentsline {subsection}{\numberline {1.5.1}More circuit diagrams}{7}
+\contentsline {chapter}{\numberline {2}Practical part}{9}
+\contentsline {section}{\numberline {2.1}Work with GEDA programs}{9}
+\contentsline {subsection}{\numberline {2.1.1}Work with gschem}{9}
+\contentsline {subsection}{\numberline {2.1.2} Work with gnetlist}{10}
+\contentsline {subsection}{\numberline {2.1.3}Work with ngspice’}{10}
+\contentsline {section}{\numberline {2.2}Work with QUCS programs}{11}
